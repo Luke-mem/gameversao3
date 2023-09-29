@@ -26,6 +26,10 @@
 
             margin-left: 450px;
         }
+
+        ul{
+            color: aqua;
+        }
     </style>
 </head>
 
@@ -39,16 +43,18 @@
 
     <p></p>
 
+    <ul>
+        <li> <a href="respmissao1.html">Portal conceitual</a> </li>
+        <li>Portal  Estrutural</li>
+        <li>Portal  Essencial</li>
+    </ul>
     <div class="img-container">
-
 
         <canvas id="jogo" width="300" height="300">
             O browser não suporta a tecnologia
         </canvas>
 
     </div>
-
-
     <script>
         var canvas = document.getElementById("jogo")
         var context = canvas.getContext("2d")
@@ -58,7 +64,7 @@
 
         var mensagem = document.querySelector("p")
 
-        mensagem.innerHTML = `Missões para o Furão Guerreiro`
+        mensagem.innerHTML = `Missão 1 - Encontrar tag`
 
 
 
